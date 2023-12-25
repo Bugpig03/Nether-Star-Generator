@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "nether_star_generator:nether_star_generator_tier1"
+    },
+    "1": {
+      "item": "nether_star_generator:nether_star_generator_tier1"
+    },
+    "2": {
+      "item": "nether_star_generator:nether_star_generator_tier1"
+    },
+    "3": {
+      "item": "nether_star_generator:nether_star_generator_tier1"
+    },
+    "4": {
+      "item": "minecraft:nether_star"
+    },
+    "5": {
+      "item": "nether_star_generator:nether_star_generator_tier1"
+    },
+    "6": {
+      "item": "nether_star_generator:nether_star_generator_tier1"
+    },
+    "7": {
+      "item": "nether_star_generator:nether_star_generator_tier1"
+    },
+    "8": {
+      "item": "nether_star_generator:nether_star_generator_tier1"
+    }
+  },
+  "result": {
+    "item": "nether_star_generator:nether_star_generator_tier2",
+    "count": 1
+  }
+}

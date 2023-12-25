@@ -1,0 +1,237 @@
+{
+  "mod_elements": [
+    {
+      "name": "NetherStarGenerator",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_star_generator_tier1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nether_star_generator/models/item/nether_star_generator_tier1.json",
+          "src/main/resources/assets/nether_star_generator/blockstates/nether_star_generator_tier1.json",
+          "src/main/java/net/mcreator/netherstargenerator/block/entity/NetherStarGeneratorBlockEntity.java",
+          "src/main/java/net/mcreator/netherstargenerator/block/NetherStarGeneratorBlock.java",
+          "src/main/resources/assets/nether_star_generator/models/block/nether_star_generator_tier1.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherStarGeneratorUpdateTick",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_star_generator_t1_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/netherstargenerator/procedures/NetherStarGeneratorUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NetherStarGeneratorGUI",
+      "type": "gui",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_star_generator__t1_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/netherstargenerator/world/inventory/NetherStarGeneratorGUIMenu.java",
+          "src/main/java/net/mcreator/netherstargenerator/client/gui/NetherStarGeneratorGUIScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "NetherStars",
+      "type": "tag",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_stars",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/nether_stars.json"
+        ]
+      }
+    },
+    {
+      "name": "Netherstargeneratortier2",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_star_generator_tier2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/netherstargenerator/block/Netherstargeneratortier2Block.java",
+          "src/main/java/net/mcreator/netherstargenerator/block/entity/Netherstargeneratortier2BlockEntity.java",
+          "src/main/resources/assets/nether_star_generator/models/item/nether_star_generator_tier2.json",
+          "src/main/resources/assets/nether_star_generator/models/block/nether_star_generator_tier2.json",
+          "src/main/resources/assets/nether_star_generator/blockstates/nether_star_generator_tier2.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherStarGeneratorTier2GUI",
+      "type": "gui",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_star_generator_tier_2_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/netherstargenerator/client/gui/NetherStarGeneratorTier2GUIScreen.java",
+          "src/main/java/net/mcreator/netherstargenerator/world/inventory/NetherStarGeneratorTier2GUIMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "NetherStarGeneratorTierIIUpdateTick",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_star_generator_tier_ii_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/netherstargenerator/procedures/NetherStarGeneratorTierIIUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NetherStarGeneratorTab",
+      "type": "tab",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_star_generator_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "NetherStarGeneratorTier1Craft",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_star_generator_tier_1_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nether_star_generator/recipes/nether_star_generator_tier_1_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherStarGeneratorTier2Craft",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_star_generator_tier_2_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nether_star_generator/recipes/nether_star_generator_tier_2_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherStarGeneratortier3",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_star_generatortier_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nether_star_generator/models/block/nether_star_generatortier_3.json",
+          "src/main/resources/assets/nether_star_generator/blockstates/nether_star_generatortier_3.json",
+          "src/main/java/net/mcreator/netherstargenerator/block/entity/NetherStarGeneratortier3BlockEntity.java",
+          "src/main/resources/assets/nether_star_generator/models/item/nether_star_generatortier_3.json",
+          "src/main/java/net/mcreator/netherstargenerator/block/NetherStarGeneratortier3Block.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "gui.nether_star_generator.nether_star_generator__t1_gui.label_consumption": "Consumption :",
+      "gui.nether_star_generator.nether_star_generator__t1_gui.label_40_000_fetick": "60 000 FE/tick",
+      "gui.nether_star_generator.nether_star_generator__t1_gui.label_nether_star_generator": "Nether Star Generator Tier I",
+      "gui.nether_star_generator.nether_star_generator__t1_gui.label_generate_40_000_fetick": "Generate :",
+      "gui.nether_star_generator.nether_star_generator_tier_2_gui.label_consumption": "Consumption :",
+      "gui.nether_star_generator.nether_star_generator_tier_2_gui.label_nether_star_generator": "Nether Star Generator Tier II",
+      "gui.nether_star_generator.nether_star_generator__t1_gui.label_1_nether_star_each_120_s": "every 120 seconds",
+      "gui.nether_star_generator.nether_star_generator_tier_2_gui.label_generate_40_000_fetick": "Generate :",
+      "item_group.nether_star_generator.nether_star_generator_tab": "Nether Star Generator",
+      "gui.nether_star_generator.nether_star_generator_tier_2_gui.label_40_000_fetick": "720 000 FE/tick",
+      "block.nether_star_generator.nether_star_generator_tier2": "Nether Star Generator Tier II",
+      "gui.nether_star_generator.nether_star_generator_tier_2_gui.label_1_nether_star_each_120_s": "every 15 seconds",
+      "block.nether_star_generator.nether_star_generatortier_3": "Nether Star Generator Tier II",
+      "block.nether_star_generator.nether_star_generator_tier1": "Nether Star Generator Tier I"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "nether_star_generator",
+    "modName": "Nether Star Generator",
+    "version": "1.0.0",
+    "author": "bugpi, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.netherstargenerator",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

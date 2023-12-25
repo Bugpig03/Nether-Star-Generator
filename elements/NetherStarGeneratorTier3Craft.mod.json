@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Netherstargeneratortier2"
+      },
+      {
+        "value": "CUSTOM:Netherstargeneratortier2"
+      },
+      {
+        "value": "CUSTOM:Netherstargeneratortier2"
+      },
+      {
+        "value": "CUSTOM:Netherstargeneratortier2"
+      },
+      {
+        "value": "Items.NETHER_STAR"
+      },
+      {
+        "value": "CUSTOM:Netherstargeneratortier2"
+      },
+      {
+        "value": "CUSTOM:Netherstargeneratortier2"
+      },
+      {
+        "value": "CUSTOM:Netherstargeneratortier2"
+      },
+      {
+        "value": "CUSTOM:Netherstargeneratortier2"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:NetherStarGeneratortier3"
+    },
+    "name": "nether_star_generator_tier_3_craft",
+    "namespace": "mod"
+  }
+}
